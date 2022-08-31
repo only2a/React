@@ -1,0 +1,126 @@
+table td {
+  border: 1px solid;
+}
+
+#f1 {
+  margin-top: 30px;
+  width: 200px;
+  height: 150px;
+  margin-left: 160px;
+}
+#f2 {
+  width: 200px;
+}
+input {
+  background: antiquewhite;
+  color: rgb(7 2 18);
+  border: 0;
+  height: 1.8rem;
+  padding: 0 calc(1.8rem * 0.5);
+  border-radius: calc(1.8rem * 0.3);
+  box-shadow: 0 0 2rem rgb(0, 0, 0, 20%);
+  margin-top: 15px;
+}
+textarea {
+  background: antiquewhite;
+  color: rgb(7 2 18);
+  width: 175px;
+  border: 0;
+  height: 2.8rem;
+  padding: 0 calc(0.8rem * 0.5);
+  border-radius: calc(0.8rem * 0.3);
+  box-shadow: 0 0 2rem rgb(0, 0, 0, 20%);
+  margin-top: 15px;
+}
+.notes {
+  width: 200px;
+  margin: 10px;
+  border: 1px solid black;
+  z-index: 0;
+}
+
+.divButt {
+  display: flex;
+  margin-top: 20px;
+}
+button {
+  margin-left: 5px;
+}
+.fill {
+  height: 30px;
+  letter-spacing: 1px;
+  padding: 1px 50px 1px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.fill::after {
+  content: "";
+  background-color: #9bc86a;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+}
+
+.fill:hover::after {
+  top: 0px;
+  left: 0px;
+}
+
+.divF {
+  display: flex;
+}
+#b1 {
+  margin-top: auto;
+}
+
+.divNotes {
+  margin: auto;
+  display: inline-flex;
+}
+
+#b2 {
+  height: 30px;
+  letter-spacing: 1px;
+  padding: 1px 20px 1px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 10px;
+}
+#b2::after {
+  content: "";
+  background-color: #9bc86a;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+}
+#b2:hover::after {
+  top: 0px;
+  left: 0px;
+}
+#i1 {
+  height: 30px;
+  letter-spacing: 1px;
+  padding: 1px 20px 1px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: #9bc86a;
+  margin-bottom: 10px;
+  margin-left: 45px;
+}

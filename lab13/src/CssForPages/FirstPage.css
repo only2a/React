@@ -1,0 +1,190 @@
+.good_in_cart{
+    color: black;
+    background-color: white;
+   
+    
+}
+
+.goods{
+    
+    color: #000;
+    background-color: white;
+   border-radius: 20px;
+    width: 400px;
+    margin: auto;
+    padding: 40px;
+}
+.Total{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    margin: auto;
+    padding: 40px;
+}
+
+.progress_bar_bg {
+    position: relative;
+    height: 10px;
+    width: 380px;
+    border: 5px solid #c804cf;
+    border-radius: 15px;
+    margin-top: 15px;
+  }
+  .progress_bar_bg .progress_bar {
+    position: absolute;
+    background-color: #c804cf;
+    width: 0px;
+    height: 10px;
+  
+    border-radius: 15px;
+  }
+
+  .ss{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 25px;
+    perspective: 1000px;
+  }
+  .ss a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .ss a:before,
+  .ss a:after{
+    position: absolute;
+    content:"Next";
+    height: 55px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #c804cf;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: -25px;
+    
+  }
+  .ss a:before{
+    color: #fff;
+    background: #c804cf;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  .ss a:after{
+    color: #c804cf;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  .ss a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+
+  .ss1{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 25px;
+    perspective: 1000px;
+  }
+  .ss1 a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .ss1 a:before,
+  .ss1 a:after{
+    position: absolute;
+    content:"Previus";
+    height: 55px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #c804cf;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: -25px;
+    
+  }
+  .ss1 a:before{
+    color: #fff;
+    background: #c804cf;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  .ss1 a:after{
+    color: #c804cf;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  .ss1 a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+
+  ul{
+      list-style: none;
+      Color: black;
+      font-size:14;
+  }
+  
+  .delivery, .payment{
+      font-size: 20px;
+      font-weight: 600;
+  }
+
+  .ss2{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 25px;
+    perspective: 1000px;
+  }
+  .ss2 a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .ss2 a:before,
+  .ss2 a:after{
+    position: absolute;
+    content:"Confirm";
+    height: 55px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #c804cf;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: -25px;
+    
+  }
+  .ss2 a:before{
+    color: #fff;
+    background: #c804cf;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  .ss2 a:after{
+    color: #c804cf;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  .ss2 a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }

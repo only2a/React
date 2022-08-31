@@ -1,0 +1,60 @@
+* {
+  font-family: Arial, Helvetica, "AT Open Sans";
+}
+
+body {
+  font-size: 18px;
+}
+td {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  /* border: 1px solid; */
+  cursor: default;
+  line-height: 30px;
+}
+table {
+  border: 1px solid;
+  border-top: 0px;
+  border-collapse: collapse;
+  border-radius: 0 0 4px 4px;
+}
+thead td {
+  background: #dfdfdf;
+  border-color: #dfdfdf;
+}
+
+.calendarTable {
+  width: 240px;
+  margin-left: 140px;
+}
+
+.calendarHeader {
+  max-width: 218px;
+  margin-left: 140px;
+  background: #dfdfdf;
+  padding: 7px 10px;
+  border: 1px solid;
+  border-bottom: 0px;
+  border-radius: 4px 4px 0 0;
+}
+
+.buttonGroup {
+  float: right;
+}
+
+.buttonGroup button {
+  border: 0px;
+  border-radius: 0%;
+  width: 25px;
+  height: 25px;
+  margin: 0px 0px;
+  background-color: #dfdfdf;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.buttonGroup button:hover {
+  background-color: rgba(0, 255, 191, 0.829);
+}

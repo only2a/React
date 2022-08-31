@@ -1,0 +1,126 @@
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+
+  border-radius: 16px;
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+#td1 {
+  background: #ffed86;
+}
+
+#td2 {
+  background: #9bc86a;
+}
+table * {
+  position: relative;
+}
+table td,
+table th {
+  padding-left: 8px;
+}
+table thead tr {
+  height: 60px;
+  background: #ffed86;
+  font-size: 16px;
+}
+table tbody tr {
+  height: 48px;
+}
+table tbody tr:last-child {
+  border: 0;
+}
+table td,
+table th {
+  text-align: left;
+}
+table td.l,
+table th.l {
+  text-align: right;
+}
+table td.c,
+table th.c {
+  text-align: center;
+}
+table td.r,
+table th.r {
+  text-align: center;
+}
+
+form {
+  margin-left: 250px;
+  width: 200px;
+  height: 150px;
+}
+.divButt {
+  display: flex;
+  width: 250px;
+  margin-left: 250px;
+}
+button {
+  margin-left: 5px;
+}
+
+input {
+  background: antiquewhite;
+  color: rgb(7 2 18);
+  border: 0;
+  height: 1.8rem;
+  padding: 0 calc(1.8rem * 0.5);
+  border-radius: calc(1.8rem * 0.3);
+  box-shadow: 0 0 2rem rgb(0, 0, 0, 20%);
+  margin-top: 15px;
+}
+textarea {
+  background: antiquewhite;
+  color: rgb(7 2 18);
+  width: 175px;
+  border: 0;
+  height: 2.8rem;
+  padding: 0 calc(0.8rem * 0.5);
+  border-radius: calc(0.8rem * 0.3);
+  box-shadow: 0 0 2rem rgb(0, 0, 0, 20%);
+  margin-top: 15px;
+}
+
+.fill {
+  width: 60px;
+  height: 30px;
+  letter-spacing: 1px;
+  padding: 1px 50px 1px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.fill::after {
+  content: "";
+  background-color: #9bc86a;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+}
+
+.fill:hover::after {
+  top: 0px;
+  left: 0px;
+}
+
+.divNotes {
+  margin: auto;
+  display: inline-flex;
+}
+
+body {
+  background-color: #7a65af;
+}

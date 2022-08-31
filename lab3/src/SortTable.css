@@ -1,0 +1,30 @@
+table{
+    margin: 20px 0px;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 10px 20px;
+    border-top: 1px solid;
+    border-spacing: 0px;
+}
+
+.tableName {
+    padding: 0px !important;
+    text-align: center;
+}
+
+.tableName > button{
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.tableNameRow > td{
+    margin: 0 10px !important;
+}
+
+.tableName > button:hover {
+    background-color: aquamarine;
+}
